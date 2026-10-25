@@ -1,0 +1,65 @@
+/* 全体のフォントや余白の調整 */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* ヘッダーのデザイン */
+header {
+    border-bottom: 2px solid #333;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+/* サイドバーとメインコンテンツを横並びにする（簡易的なレイアウト） */
+div[style*="display: flex"] {
+    gap: 30px;
+}
+
+/* サイドバーのメニューを教科書風に装飾 */
+aside ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+aside li {
+    margin-bottom: 12px;
+}
+
+aside a {
+    text-decoration: none;
+    color: blue;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+/* テーブルの見栄えを少し整える */
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* フッターの調整 */
+footer {
+    margin-top: 40px;
+    padding: 10px 0;
+}
+
+footer button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
